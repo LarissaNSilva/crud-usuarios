@@ -1,0 +1,21 @@
+Criar banco de dados: CREATE DATABASE sistema;
+
+Criar tabela: 
+
+CREATE TABLE `cadastro` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome_completo` char(255) DEFAULT NULL,
+  `email` char(255) DEFAULT NULL,
+  `idade` int(50) DEFAULT NULL,
+  `apelido` char(250) DEFAULT NULL,
+  `telefone_um` char(250) DEFAULT NULL,
+  `telefone_dois` char(250) DEFAULT NULL,
+  `cep` int(20) DEFAULT NULL,
+  `cidade` char(250) DEFAULT NULL,
+  `bairro` char(250) DEFAULT NULL,
+  `endereco` char(255) DEFAULT NULL,
+  `numero` int(20) DEFAULT NULL,
+  `complemento` char(150) DEFAULT NULL,
+  `avatar` char(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4
